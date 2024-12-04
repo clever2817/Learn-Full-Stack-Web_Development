@@ -19,11 +19,16 @@
         tr:nth-child(even){
             background-color: #dddddd;
         }
+
+        #tb2 th{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <h1>HTML Table</h1>
 
+    <!-- Practice table - 1 -->
     <table>
         <thead>
             <tr>
@@ -66,6 +71,49 @@
             </tr>
         </tbody>
     </table>
-    
+
+    <!-- Practice table - 2  -->
+    <h2>Practice Table 2 (Colspan)</h2>
+    <table id="tb2">
+        <thead>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>43</td>
+            </tr>
+
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>57</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Practice Table - 3 -->
+
+    <h2>Practice Table 3 (Rowspan)</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Jill</td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>555-1234</td>
+        </tr>
+
+        <tr>
+            <td>555-8745</td>
+        </tr>
+    </table>
 </body>
 </html>
