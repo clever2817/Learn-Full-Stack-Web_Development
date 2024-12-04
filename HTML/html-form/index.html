@@ -11,7 +11,7 @@
             margin: 8px;
             font-size: 18px;
         }
-        input, textarea{
+        input, textarea, select{
             margin: 8px;
             padding: 5px;
         }
@@ -20,6 +20,7 @@
 <body>
     <h1>HTML Form Elements</h1>
 
+    <!-- Contact Form -->
     <div>
         <h2>Contact Form</h2>
 
@@ -37,6 +38,60 @@
             <textarea name="message" id="message" cols="30" rows="10" placeholder="Write Your Message Here"></textarea> <br>
 
             <input type="submit" value="Send Us">
+        </form>
+    </div>
+
+    <!-- Select Options -->
+    <div>
+        <h2>Select Element</h2>
+
+        <form>
+            <label for="country">Select Your Favorite Country:</label>
+
+            <select name="country" id="country">
+                <option>Select Country</option>
+                <option value="bangladesh">Bangladesh</option>
+                <option value="usa">USA</option>
+                <option value="mexico">Mexico</option>
+                <option value="canada">Canada</option>
+            </select>
+        </form>
+    </div>
+
+    <!-- Radio buttons and Checkboxes -->
+
+    <div>
+        <h2>Radio buttons and Checkboxes</h2>
+
+        <form>
+            <label for="gender">Gender:</label>
+            <label>
+                <input type="radio" name="gender" value="male">Male
+            </label>
+    
+            <label>
+                <input type="radio" name="gender" value="female">Female
+            </label>
+
+
+            <!-- Checkboxes -->
+            <h2>Select Your Favorite Color / Colors:</h2>
+            <label for="">
+                <input type="checkbox" name="colors" value="red">Red
+            </label>
+            <label for="">
+                <input type="checkbox" name="colors" value="green">Green
+            </label>
+            <label for="">
+                <input type="checkbox" name="colors" value="blue">Blue
+            </label>
+            <label for="">
+                <input type="checkbox" name="colors" value="yellow">Yellow
+            </label>
+            <label for="">
+                <input type="checkbox" name="colors" value="purple">Purple
+            </label>
+
         </form>
     </div>
 </body>
