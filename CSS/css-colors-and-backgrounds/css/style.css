@@ -29,3 +29,53 @@ RGB color range : (0 - 255)
  #hsl-color{
     color: hsl(287, 36%, 60%);
  }
+
+
+/* text color */
+.blue-heading {
+    color: blue;
+}
+
+
+/* Background color */
+.bg-color {
+    background-color: aqua;
+    padding: 20px;
+}
+
+
+/* Background Image */
+.bg-image {
+    background-image: url("../images/bg-img.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+}
+
+
+/* Multiple background images */
+.bg-mul-img {
+    background-image: url("../images/bg-img.jpg"), url("../images/bg-img-2.jpg");
+    height: 600px;
+    background-position: left, right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+/* Gradient Background Color */
+
+.linear-gradient {
+    padding: 60px;
+    background: linear-gradient(to right, red, blue, green);
+}
+
+.radial-gradient {
+    height: 600px;
+    background: radial-gradient(circle, red, green);
+    color: white;
+}
