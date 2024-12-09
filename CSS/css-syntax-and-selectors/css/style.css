@@ -4,3 +4,45 @@
     }
 */
 
+
+/* Universal Selector */
+*{
+    background-color: bisque;
+}
+
+
+/* element / tag selector */
+p {
+    color: red;
+}
+
+
+/* Class Selector */
+.myClass {
+    color: blueviolet;
+    font-size: 22px;
+}
+
+
+/* ID Selector */
+#text_content {
+    color: darkgreen;
+    font-size: 20px;
+    font-style: italic;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+
+
+/* combining Selectors */
+
+header nav ul li, ol li {
+    list-style: none;
+    font-style: italic;
+}
+
+header nav ul li a, ol li {
+    text-decoration: none;
+    color: crimson;
+}
