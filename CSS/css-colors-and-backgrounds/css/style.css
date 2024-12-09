@@ -1,0 +1,31 @@
+/* 
+Hex color range : (0-9) and (A-F)
+ */
+
+#hex-color{
+    color: #3756fb;
+}
+
+
+
+/* 
+RGB color range : (0 - 255)
+ */
+
+#rgb-color{
+    color: rgb(255, 132, 65);
+}
+
+
+/*
+ HSL color range: 
+ {
+    Hue : (0 - 360 deg)
+    Saturation: (0 - 100%)
+    Lightness : (0 - 100%)
+ }
+ */
+
+ #hsl-color{
+    color: hsl(287, 36%, 60%);
+ }
