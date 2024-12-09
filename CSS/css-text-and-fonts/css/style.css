@@ -1,3 +1,7 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
+
 .normal-text {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -42,4 +46,18 @@
     background-color: blueviolet;
     padding: 20px;
     color: aliceblue;
+}
+
+
+.google-font-html {
+    font-family: "Yuji Mai", serif;
+    line-height: 1.5rem;
+    letter-spacing: 3px;
+}
+
+
+.google-font-css {
+    line-height: 1.5rem;
+    letter-spacing: 3px;
+    font-family: "Hachi Maru Pop", cursive;
 }
