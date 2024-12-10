@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.box {
+    background-color: blueviolet;
+    height: 200px;
+    width: 400px;
+    color: white;
+    border: 10px solid black;
+
+    /*
+    padding (shorthand): padding-top padding-right padding-bottom padding-left 
+     */
+    padding: 150px 0px 0px 250px;
+
+    /*
+     margin (shorthand): margin-top margin-right margin-bottom margin-left 
+     */
+    margin: 40px 0px 0px 50px;
+
+    font-weight: 600px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
