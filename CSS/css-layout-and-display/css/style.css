@@ -1,0 +1,30 @@
+.body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.inline {
+    background-color: aqua;
+    border: 3px solid black;
+    display: inline;
+    padding: 20px;
+}
+
+
+.block {
+    display: block;
+    background-color: lightgreen ;
+    margin-top: 30px;
+    padding: 20px;
+    border: 3px solid blue;
+}
+
+
+.inline-block {
+    background-color: lightcoral;
+    display: inline-block;
+    margin-top: 30px;
+    border: 3px solid darkslateblue;
+    padding: 20px;
+}
