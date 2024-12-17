@@ -36,5 +36,18 @@
     background-color: aqua;
     position: absolute;
     left: 200px;
-    top: 20px;
+    top: 50px;
 }
+
+
+.fixed-box {
+    border: 2px solid purple;
+    background-color: cadetblue;
+    padding: 20px;
+    width: 150px;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+
+
