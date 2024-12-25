@@ -53,3 +53,36 @@
     display: flex;
     justify-content: space-around;
 }
+
+
+.container-align-item-1 {
+    border: 2px solid rgb(3, 88, 91);
+    padding: 20px;
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+}
+
+.container-align-item-2 {
+    border: 2px solid rgb(3, 88, 91);
+    padding: 20px;
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+}
+
+.container-align-item-3 {
+    border: 2px solid rgb(3, 88, 91);
+    padding: 20px;
+    display: flex;
+    height: 200px;
+    align-items: stretch;
+}
+
+.container-align-item-4 {
+    border: 2px solid rgb(3, 88, 91);
+    padding: 20px;
+    display: flex;
+    height: 200px;
+    align-items: center;
+}
