@@ -1,0 +1,55 @@
+.container-justify-1{
+    border: 2px solid brown;
+    padding: 20px;
+    display: flex;
+    justify-content: baseline; /* Aligns items based on font line */
+}
+
+.flex-item {
+    border: 2px solid blue;
+    padding: 10px;
+    background-color: burlywood;
+    margin: 10px;
+}
+
+.container-justify-2{
+    border: 2px solid brown;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-justify-3{
+    border: 2px solid brown;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-justify-4{
+    border: 2px solid brown;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-justify-5{
+    border: 2px solid brown;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-justify-6{
+    border: 2px solid brown;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-justify-7{
+    border: 2px solid brown;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
