@@ -86,3 +86,35 @@
     height: 200px;
     align-items: center;
 }
+
+
+.container-flex-1 {
+    border: 2px solid rgb(126, 19, 165);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+.container-flex-2 {
+    border: 2px solid rgb(126, 19, 165);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-flex-3 {
+    border: 2px solid rgb(126, 19, 165);
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container-flex-4 {
+    border: 2px solid rgb(126, 19, 165);
+    padding: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
