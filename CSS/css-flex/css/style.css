@@ -118,3 +118,32 @@
     flex-direction: column-reverse;
     text-align: center;
 }
+
+.container-flex-wrap-1 {
+    border: 2px solid rgb(205, 64, 132);
+    padding: 20px;
+    display: flex;
+    width: 300px;
+    flex-wrap: nowrap;
+}
+
+.item {
+    width: 100px;
+    text-align: center;
+}
+
+.container-flex-wrap-2 {
+    border: 2px solid rgb(205, 64, 132);
+    padding: 20px;
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.container-flex-wrap-3 {
+    border: 2px solid rgb(205, 64, 132);
+    padding: 20px;
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap-reverse;
+}
